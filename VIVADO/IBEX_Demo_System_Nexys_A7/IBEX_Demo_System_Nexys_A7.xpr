@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2022.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="61" Path="/home/cristian/OneDrive/MATERIALE_MAGISTALE/ACAGPU/Progetto/SISTEMI_DEFINITIVI/VIVADO/IBEX_Demo_System_Nexys_A7/IBEX_Demo_System_Nexys_A7.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="faae0fb55a66428081820eae36ee93ad"/>
+    <Option Name="Part" Val="xc7a100tcsg324-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorInstallDirVCS" Val=""/>
+    <Option Name="SimulatorInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
+    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorVersionXsim" Val="2022.2"/>
+    <Option Name="SimulatorVersionModelSim" Val="2022.2"/>
+    <Option Name="SimulatorVersionQuesta" Val="2022.2"/>
+    <Option Name="SimulatorVersionXcelium" Val="21.09.009"/>
+    <Option Name="SimulatorVersionVCS" Val="S-2021.09"/>
+    <Option Name="SimulatorVersionRiviera" Val="2022.04"/>
+    <Option Name="SimulatorVersionActiveHdl" Val="13.0"/>
+    <Option Name="SimulatorGccVersionXsim" Val="6.2.0"/>
+    <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
+    <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableResourceEstimation" Val="FALSE"/>
+    <Option Name="SimCompileState" Val="TRUE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+    <Option Name="ClassicSocBoot" Val="FALSE"/>
+    <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/bus.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/bus.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/fpga/clkgen_xil7series.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/fpga/clkgen_xil7series.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/debounce.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/debounce.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/debug_rom.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/debug_rom.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/dm_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/dm_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/dm_csrs.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/dm_csrs.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/dm_mem.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/dm_mem.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/dm_sba.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/dm_sba.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert_sec_cm.svh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert_sec_cm.svh"/>
+          <Attr Name="ImportTime" Val="1679237649"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_flop_macros.sv">
+        <FileInfo SFType="VHeader">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_flop_macros.sv"/>
+          <Attr Name="ImportTime" Val="1679237650"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert_dummy_macros.svh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert_dummy_macros.svh"/>
+          <Attr Name="ImportTime" Val="1679237649"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert.sv">
+        <FileInfo SFType="VHeader">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert.sv"/>
+          <Attr Name="ImportTime" Val="1679237649"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/dm_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/dm_top.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/fpga/dmi_bscane_tap.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/fpga/dmi_bscane_tap.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/dmi_cdc.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/dmi_cdc.sv"/>
+          <Attr Name="ImportTime" Val="1679237663"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/pulp_riscv/dmi_jtag.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/pulp_riscv/dmi_jtag.sv"/>
+          <Attr Name="ImportTime" Val="1679237664"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/gpio.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/gpio.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_alu.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_alu.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_branch_predict.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_branch_predict.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_compressed_decoder.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_compressed_decoder.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/dv_fcov_macros.svh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/dv_fcov_macros.svh"/>
+          <Attr Name="ImportTime" Val="1679237632"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_controller.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_controller.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_core.sv"/>
+          <Attr Name="ImportTime" Val="1681504212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_counter.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_counter.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_pmp_reset_default.svh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_pmp_reset_default.svh"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_cs_registers.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_cs_registers.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_csr.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_csr.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_decoder.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_decoder.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/ibex_demo_system.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/ibex_demo_system.sv"/>
+          <Attr Name="ImportTime" Val="1681756108"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_dummy_instr.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_dummy_instr.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_ex_block.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_ex_block.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_fetch_fifo.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_fetch_fifo.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_id_stage.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_id_stage.sv"/>
+          <Attr Name="ImportTime" Val="1679237610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_if_stage.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_if_stage.sv"/>
+          <Attr Name="ImportTime" Val="1681504288"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_load_store_unit.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_load_store_unit.sv"/>
+          <Attr Name="ImportTime" Val="1681504445"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_multdiv_fast.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_multdiv_fast.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_prefetch_buffer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_prefetch_buffer.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_register_file_fpga.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_register_file_fpga.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_ram_1p_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_ram_1p_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1679237652"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_secded_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_secded_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1679237653"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_top.sv"/>
+          <Attr Name="ImportTime" Val="1681504531"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/ibex_core/ibex_wb_stage.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/ibex_core/ibex_wb_stage.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_fifo_async.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_fifo_async.sv"/>
+          <Attr Name="ImportTime" Val="1679237650"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_util_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_util_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1679237654"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_fifo_sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_fifo_sync.sv"/>
+          <Attr Name="ImportTime" Val="1681500762"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_fifo_sync_cnt.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_fifo_sync_cnt.sv"/>
+          <Attr Name="ImportTime" Val="1679237650"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_flop_2sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_flop_2sync.sv"/>
+          <Attr Name="ImportTime" Val="1681501086"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_ram_2p_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_ram_2p_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1679237652"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_util_memload.svh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_util_memload.svh"/>
+          <Attr Name="ImportTime" Val="1679237654"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim_generic/prim_generic_ram_2p.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim_generic/prim_generic_ram_2p.sv"/>
+          <Attr Name="ImportTime" Val="1681500790"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim_xilinx/prim_xilinx_buf.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim_xilinx/prim_xilinx_buf.sv"/>
+          <Attr Name="ImportTime" Val="1679237657"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim_xilinx/prim_xilinx_clock_gating.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim_xilinx/prim_xilinx_clock_gating.sv"/>
+          <Attr Name="ImportTime" Val="1679237658"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim_xilinx/prim_xilinx_flop.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim_xilinx/prim_xilinx_flop.sv"/>
+          <Attr Name="ImportTime" Val="1679237658"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/pwm.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/pwm.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/pwm_wrapper.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/pwm_wrapper.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/ram_2p.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/ram_2p.sv"/>
+          <Attr Name="ImportTime" Val="1681401693"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/spi_host.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/spi_host.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/spi_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/spi_top.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/timer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/timer.sv"/>
+          <Attr Name="ImportTime" Val="1679237611"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/demo_system/uart.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/demo_system/uart.sv"/>
+          <Attr Name="ImportTime" Val="1679237594"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/fpga/top_nexys7.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/fpga/top_nexys7.sv"/>
+          <Attr Name="ImportTime" Val="1681957070"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/mem/blank.vmem">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/mem/blank.vmem"/>
+          <Attr Name="ImportTime" Val="1680349117"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert_standard_macros.svh">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/primitive/prim/prim_assert_standard_macros.svh"/>
+          <Attr Name="ImportTime" Val="1679237649"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="top_nexys7"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/constraints/pins_nexys7.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA/Ibex_Demo_System_Xilinx/constraints/pins_nexys7.xdc"/>
+          <Attr Name="ImportTime" Val="1681956846"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="top_nexys7"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+      <Filter Type="Utils"/>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/top_nexys7.dcp">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedInSteps" Val="synth_1"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="19">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top_nexys7.dcp" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream">
+          <Option Id="BinFile">1</Option>
+        </Step>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board/>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>
